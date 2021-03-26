@@ -18,7 +18,7 @@ const routes: Routes = [
         pathMatch: 'full'
     },
     {
-        path: 'en',
+        path: 'en-US',
         redirectTo: '/',
         pathMatch: 'full'
     },

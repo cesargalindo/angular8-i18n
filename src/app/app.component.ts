@@ -11,7 +11,7 @@ export class AppComponent {
   public localid = 'empty';
 
   languageList = [
-    { code: 'en', label: 'English' },
+    { code: 'en-US', label: 'English' },
     { code: 'hi', label: 'हिंदी' },
     { code: 'es', label: 'Espanol' }
   ];

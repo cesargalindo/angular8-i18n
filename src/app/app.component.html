@@ -9,5 +9,6 @@
 <hr />
 
 <ng-container *ngFor="let language of languageList">
+  {{ language.code }} =
   <a href="/{{language.code}}/"><button class="button">{{language.label}}</button></a>
 </ng-container>
